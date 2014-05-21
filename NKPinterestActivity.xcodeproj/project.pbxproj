@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2810F9DE192CBE1A00D40DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810F9DD192CBE1A00D40DA8 /* Foundation.framework */; };
+		2810F9E0192CBE1A00D40DA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810F9DF192CBE1A00D40DA8 /* CoreGraphics.framework */; };
+		2810F9E2192CBE1A00D40DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810F9E1192CBE1A00D40DA8 /* UIKit.framework */; };
+		2810F9E8192CBE1A00D40DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2810F9E6192CBE1A00D40DA8 /* InfoPlist.strings */; };
+		2810F9EA192CBE1A00D40DA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2810F9E9192CBE1A00D40DA8 /* main.m */; };
+		2810F9EE192CBE1A00D40DA8 /* NKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2810F9ED192CBE1A00D40DA8 /* NKAppDelegate.m */; };
+		2810F9F0192CBE1A00D40DA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2810F9EF192CBE1A00D40DA8 /* Images.xcassets */; };
+		2810F9F7192CBE1A00D40DA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810F9F6192CBE1A00D40DA8 /* XCTest.framework */; };
+		2810F9F8192CBE1A00D40DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810F9DD192CBE1A00D40DA8 /* Foundation.framework */; };
+		2810F9F9192CBE1A00D40DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810F9E1192CBE1A00D40DA8 /* UIKit.framework */; };
+		2810FA01192CBE1A00D40DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2810F9FF192CBE1A00D40DA8 /* InfoPlist.strings */; };
+		2810FA03192CBE1A00D40DA8 /* NKPinterestActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2810FA02192CBE1A00D40DA8 /* NKPinterestActivityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2810F9FA192CBE1A00D40DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2810F9D2192CBE1A00D40DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2810F9D9192CBE1A00D40DA8;
+			remoteInfo = NKPinterestActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2810F9DA192CBE1A00D40DA8 /* NKPinterestActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKPinterestActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2810F9DD192CBE1A00D40DA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2810F9DF192CBE1A00D40DA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2810F9E1192CBE1A00D40DA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2810F9E5192CBE1A00D40DA8 /* NKPinterestActivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NKPinterestActivity-Info.plist"; sourceTree = "<group>"; };
+		2810F9E7192CBE1A00D40DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2810F9E9192CBE1A00D40DA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2810F9EB192CBE1A00D40DA8 /* NKPinterestActivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NKPinterestActivity-Prefix.pch"; sourceTree = "<group>"; };
+		2810F9EC192CBE1A00D40DA8 /* NKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKAppDelegate.h; sourceTree = "<group>"; };
+		2810F9ED192CBE1A00D40DA8 /* NKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKAppDelegate.m; sourceTree = "<group>"; };
+		2810F9EF192CBE1A00D40DA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2810F9F5192CBE1A00D40DA8 /* NKPinterestActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKPinterestActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2810F9F6192CBE1A00D40DA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2810F9FE192CBE1A00D40DA8 /* NKPinterestActivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NKPinterestActivityTests-Info.plist"; sourceTree = "<group>"; };
+		2810FA00192CBE1A00D40DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2810FA02192CBE1A00D40DA8 /* NKPinterestActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKPinterestActivityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2810F9D7192CBE1A00D40DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2810F9E0192CBE1A00D40DA8 /* CoreGraphics.framework in Frameworks */,
+				2810F9E2192CBE1A00D40DA8 /* UIKit.framework in Frameworks */,
+				2810F9DE192CBE1A00D40DA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2810F9F2192CBE1A00D40DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2810F9F7192CBE1A00D40DA8 /* XCTest.framework in Frameworks */,
+				2810F9F9192CBE1A00D40DA8 /* UIKit.framework in Frameworks */,
+				2810F9F8192CBE1A00D40DA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2810F9D1192CBE1A00D40DA8 = {
+			isa = PBXGroup;
+			children = (
+				2810F9E3192CBE1A00D40DA8 /* NKPinterestActivity */,
+				2810F9FC192CBE1A00D40DA8 /* NKPinterestActivityTests */,
+				2810F9DC192CBE1A00D40DA8 /* Frameworks */,
+				2810F9DB192CBE1A00D40DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2810F9DB192CBE1A00D40DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2810F9DA192CBE1A00D40DA8 /* NKPinterestActivity.app */,
+				2810F9F5192CBE1A00D40DA8 /* NKPinterestActivityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2810F9DC192CBE1A00D40DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2810F9DD192CBE1A00D40DA8 /* Foundation.framework */,
+				2810F9DF192CBE1A00D40DA8 /* CoreGraphics.framework */,
+				2810F9E1192CBE1A00D40DA8 /* UIKit.framework */,
+				2810F9F6192CBE1A00D40DA8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2810F9E3192CBE1A00D40DA8 /* NKPinterestActivity */ = {
+			isa = PBXGroup;
+			children = (
+				2810F9EC192CBE1A00D40DA8 /* NKAppDelegate.h */,
+				2810F9ED192CBE1A00D40DA8 /* NKAppDelegate.m */,
+				2810F9EF192CBE1A00D40DA8 /* Images.xcassets */,
+				2810F9E4192CBE1A00D40DA8 /* Supporting Files */,
+			);
+			path = NKPinterestActivity;
+			sourceTree = "<group>";
+		};
+		2810F9E4192CBE1A00D40DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2810F9E5192CBE1A00D40DA8 /* NKPinterestActivity-Info.plist */,
+				2810F9E6192CBE1A00D40DA8 /* InfoPlist.strings */,
+				2810F9E9192CBE1A00D40DA8 /* main.m */,
+				2810F9EB192CBE1A00D40DA8 /* NKPinterestActivity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2810F9FC192CBE1A00D40DA8 /* NKPinterestActivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				2810FA02192CBE1A00D40DA8 /* NKPinterestActivityTests.m */,
+				2810F9FD192CBE1A00D40DA8 /* Supporting Files */,
+			);
+			path = NKPinterestActivityTests;
+			sourceTree = "<group>";
+		};
+		2810F9FD192CBE1A00D40DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2810F9FE192CBE1A00D40DA8 /* NKPinterestActivityTests-Info.plist */,
+				2810F9FF192CBE1A00D40DA8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2810F9D9192CBE1A00D40DA8 /* NKPinterestActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2810FA06192CBE1A00D40DA8 /* Build configuration list for PBXNativeTarget "NKPinterestActivity" */;
+			buildPhases = (
+				2810F9D6192CBE1A00D40DA8 /* Sources */,
+				2810F9D7192CBE1A00D40DA8 /* Frameworks */,
+				2810F9D8192CBE1A00D40DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKPinterestActivity;
+			productName = NKPinterestActivity;
+			productReference = 2810F9DA192CBE1A00D40DA8 /* NKPinterestActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2810F9F4192CBE1A00D40DA8 /* NKPinterestActivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2810FA09192CBE1A00D40DA8 /* Build configuration list for PBXNativeTarget "NKPinterestActivityTests" */;
+			buildPhases = (
+				2810F9F1192CBE1A00D40DA8 /* Sources */,
+				2810F9F2192CBE1A00D40DA8 /* Frameworks */,
+				2810F9F3192CBE1A00D40DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2810F9FB192CBE1A00D40DA8 /* PBXTargetDependency */,
+			);
+			name = NKPinterestActivityTests;
+			productName = NKPinterestActivityTests;
+			productReference = 2810F9F5192CBE1A00D40DA8 /* NKPinterestActivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2810F9D2192CBE1A00D40DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Neil Kimmett";
+				TargetAttributes = {
+					2810F9F4192CBE1A00D40DA8 = {
+						TestTargetID = 2810F9D9192CBE1A00D40DA8;
+					};
+				};
+			};
+			buildConfigurationList = 2810F9D5192CBE1A00D40DA8 /* Build configuration list for PBXProject "NKPinterestActivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2810F9D1192CBE1A00D40DA8;
+			productRefGroup = 2810F9DB192CBE1A00D40DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2810F9D9192CBE1A00D40DA8 /* NKPinterestActivity */,
+				2810F9F4192CBE1A00D40DA8 /* NKPinterestActivityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2810F9D8192CBE1A00D40DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2810F9E8192CBE1A00D40DA8 /* InfoPlist.strings in Resources */,
+				2810F9F0192CBE1A00D40DA8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2810F9F3192CBE1A00D40DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2810FA01192CBE1A00D40DA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2810F9D6192CBE1A00D40DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2810F9EA192CBE1A00D40DA8 /* main.m in Sources */,
+				2810F9EE192CBE1A00D40DA8 /* NKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2810F9F1192CBE1A00D40DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2810FA03192CBE1A00D40DA8 /* NKPinterestActivityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2810F9FB192CBE1A00D40DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2810F9D9192CBE1A00D40DA8 /* NKPinterestActivity */;
+			targetProxy = 2810F9FA192CBE1A00D40DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2810F9E6192CBE1A00D40DA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2810F9E7192CBE1A00D40DA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2810F9FF192CBE1A00D40DA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2810FA00192CBE1A00D40DA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2810FA04192CBE1A00D40DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2810FA05192CBE1A00D40DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2810FA07192CBE1A00D40DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NKPinterestActivity/NKPinterestActivity-Prefix.pch";
+				INFOPLIST_FILE = "NKPinterestActivity/NKPinterestActivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2810FA08192CBE1A00D40DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NKPinterestActivity/NKPinterestActivity-Prefix.pch";
+				INFOPLIST_FILE = "NKPinterestActivity/NKPinterestActivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2810FA0A192CBE1A00D40DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NKPinterestActivity.app/NKPinterestActivity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NKPinterestActivity/NKPinterestActivity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NKPinterestActivityTests/NKPinterestActivityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2810FA0B192CBE1A00D40DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NKPinterestActivity.app/NKPinterestActivity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NKPinterestActivity/NKPinterestActivity-Prefix.pch";
+				INFOPLIST_FILE = "NKPinterestActivityTests/NKPinterestActivityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2810F9D5192CBE1A00D40DA8 /* Build configuration list for PBXProject "NKPinterestActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2810FA04192CBE1A00D40DA8 /* Debug */,
+				2810FA05192CBE1A00D40DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2810FA06192CBE1A00D40DA8 /* Build configuration list for PBXNativeTarget "NKPinterestActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2810FA07192CBE1A00D40DA8 /* Debug */,
+				2810FA08192CBE1A00D40DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2810FA09192CBE1A00D40DA8 /* Build configuration list for PBXNativeTarget "NKPinterestActivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2810FA0A192CBE1A00D40DA8 /* Debug */,
+				2810FA0B192CBE1A00D40DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2810F9D2192CBE1A00D40DA8 /* Project object */;
+}
