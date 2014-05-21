@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>167F5FE5-AA52-4707-B860-3704CE4F32A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NKPinterestActivity</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D089F3B-6190-4D7A-9FFE-5ED127A3CC82</key>
+		<string>ssh://github.com/neilkimmett/NKPinterestActivity.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NKPinterestActivity.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D089F3B-6190-4D7A-9FFE-5ED127A3CC82</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/neilkimmett/NKPinterestActivity.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D089F3B-6190-4D7A-9FFE-5ED127A3CC82</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D089F3B-6190-4D7A-9FFE-5ED127A3CC82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NKPinterestActivity</string>
+		</dict>
+	</array>
+</dict>
+</plist>
