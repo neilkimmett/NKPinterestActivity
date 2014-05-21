@@ -1,17 +1,13 @@
 NKPinterestActivity
 ===================
 
-![UIActivityViewController](https://github.com/neilkimmett/NKPinterestActivity/raw/master/Screenshots/screenshot1.png)
+![UIActivityViewController](https://github.com/neilkimmett/NKPinterestActivity/raw/master/Screenshots/both.jpg)
 
 ## Installation
 
 #### Using [CocoaPods](http://cocoapods.org/)
 * Add `pod 'NKPinterestActivity', '~> 1.0'` to your `Podfile`
-* Run
-``` bash
-$ pod install
-```
-to add the required files to your workspace.
+* Run `pod install` to add the required files to your workspace.
 
 ## How to use
 
