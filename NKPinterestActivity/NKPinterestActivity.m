@@ -30,39 +30,17 @@
     return self;
 }
 
+#pragma mark - UIActivity
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems
 {
-//    BOOL hasURL = NO;
-//    for (id item in activityItems) {
-//        if([item isKindOfClass:[NSURL class]]) {
-//            hasURL = YES;
-//            break;
-//        }
-//    }
-//    return hasURL && [self.pinterest canPinWithSDK];
-//    BOOL hasImageURL = self.imageURL != nil;
-//    BOOL hasSourceURL = self.sourceURL != nil;
-    return [self.pinterest canPinWithSDK];
-}
-
-- (NSString *)activityType
-{
-	return NSStringFromClass([self class]);
-}
-
-- (UIImage *)activityImage
-{
-    return [UIImage imageNamed:self.activityType];
-}
-
-- (NSString *)activityTitle
-{
-    return @"Pinterest";
-}
-
-+ (UIActivityCategory)activityCategory
-{
-    return UIActivityCategoryShare;
+    BOOL hasURL = NO;
+    for (id item in activityItems) {
+        if([item isKindOfClass:[NSURL class]]) {
+            hasURL = YES;
+            break;
+        }
+    }
+    return hasURL && [self.pinterest canPinWithSDK];
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems
@@ -83,6 +61,27 @@
                                 sourceURL:self.sourceURL
                               description:self.description];
     [self activityDidFinish:YES];
+}
+
+#pragma mark - UIActivity bookkeeping
+- (NSString *)activityType
+{
+	return NSStringFromClass([self class]);
+}
+
+- (UIImage *)activityImage
+{
+    return [UIImage imageNamed:self.activityType];
+}
+
+- (NSString *)activityTitle
+{
+    return @"Pinterest";
+}
+
++ (UIActivityCategory)activityCategory
+{
+    return UIActivityCategoryShare;
 }
 
 @end
