@@ -1,0 +1,10 @@
+PODS:
+  - Pinterest-iOS (2.3)
+
+DEPENDENCIES:
+  - Pinterest-iOS (~> 2.3)
+
+SPEC CHECKSUMS:
+  Pinterest-iOS: 418044a91ac88d370a54ce06b89ee034c240171d
+
+COCOAPODS: 0.33.0

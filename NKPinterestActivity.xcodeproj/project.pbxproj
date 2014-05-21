@@ -19,6 +19,10 @@
 		2810F9F9192CBE1A00D40DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810F9E1192CBE1A00D40DA8 /* UIKit.framework */; };
 		2810FA01192CBE1A00D40DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2810F9FF192CBE1A00D40DA8 /* InfoPlist.strings */; };
 		2810FA03192CBE1A00D40DA8 /* NKPinterestActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2810FA02192CBE1A00D40DA8 /* NKPinterestActivityTests.m */; };
+		2810FA0E192CCCC600D40DA8 /* NKPinterestActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2810FA0D192CCCC600D40DA8 /* NKPinterestActivity.m */; };
+		2810FA11192CD20200D40DA8 /* NKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2810FA10192CD20200D40DA8 /* NKViewController.m */; };
+		2810FA13192CD47D00D40DA8 /* NKPinterestActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2810FA12192CD47D00D40DA8 /* NKPinterestActivity@2x.png */; };
+		BC70DB2A799B48E389FD4179 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 923791AB6E8C4D9A9DE0254F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		2810F9FE192CBE1A00D40DA8 /* NKPinterestActivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NKPinterestActivityTests-Info.plist"; sourceTree = "<group>"; };
 		2810FA00192CBE1A00D40DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2810FA02192CBE1A00D40DA8 /* NKPinterestActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKPinterestActivityTests.m; sourceTree = "<group>"; };
+		2810FA0C192CCCC600D40DA8 /* NKPinterestActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPinterestActivity.h; sourceTree = "<group>"; };
+		2810FA0D192CCCC600D40DA8 /* NKPinterestActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPinterestActivity.m; sourceTree = "<group>"; };
+		2810FA0F192CD20200D40DA8 /* NKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKViewController.h; sourceTree = "<group>"; };
+		2810FA10192CD20200D40DA8 /* NKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKViewController.m; sourceTree = "<group>"; };
+		2810FA12192CD47D00D40DA8 /* NKPinterestActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NKPinterestActivity@2x.png"; sourceTree = "<group>"; };
+		494A7C5C90484A888E05A909 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		923791AB6E8C4D9A9DE0254F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 				2810F9E0192CBE1A00D40DA8 /* CoreGraphics.framework in Frameworks */,
 				2810F9E2192CBE1A00D40DA8 /* UIKit.framework in Frameworks */,
 				2810F9DE192CBE1A00D40DA8 /* Foundation.framework in Frameworks */,
+				BC70DB2A799B48E389FD4179 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,7 @@
 				2810F9FC192CBE1A00D40DA8 /* NKPinterestActivityTests */,
 				2810F9DC192CBE1A00D40DA8 /* Frameworks */,
 				2810F9DB192CBE1A00D40DA8 /* Products */,
+				494A7C5C90484A888E05A909 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +113,7 @@
 				2810F9DF192CBE1A00D40DA8 /* CoreGraphics.framework */,
 				2810F9E1192CBE1A00D40DA8 /* UIKit.framework */,
 				2810F9F6192CBE1A00D40DA8 /* XCTest.framework */,
+				923791AB6E8C4D9A9DE0254F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +125,11 @@
 				2810F9ED192CBE1A00D40DA8 /* NKAppDelegate.m */,
 				2810F9EF192CBE1A00D40DA8 /* Images.xcassets */,
 				2810F9E4192CBE1A00D40DA8 /* Supporting Files */,
+				2810FA0C192CCCC600D40DA8 /* NKPinterestActivity.h */,
+				2810FA0D192CCCC600D40DA8 /* NKPinterestActivity.m */,
+				2810FA12192CD47D00D40DA8 /* NKPinterestActivity@2x.png */,
+				2810FA0F192CD20200D40DA8 /* NKViewController.h */,
+				2810FA10192CD20200D40DA8 /* NKViewController.m */,
 			);
 			path = NKPinterestActivity;
 			sourceTree = "<group>";
@@ -151,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2810FA06192CBE1A00D40DA8 /* Build configuration list for PBXNativeTarget "NKPinterestActivity" */;
 			buildPhases = (
+				A80343B44C8F430DB6367E4A /* Check Pods Manifest.lock */,
 				2810F9D6192CBE1A00D40DA8 /* Sources */,
 				2810F9D7192CBE1A00D40DA8 /* Frameworks */,
 				2810F9D8192CBE1A00D40DA8 /* Resources */,
+				6A5519A601A144EF9C1B1C0C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +243,7 @@
 			files = (
 				2810F9E8192CBE1A00D40DA8 /* InfoPlist.strings in Resources */,
 				2810F9F0192CBE1A00D40DA8 /* Images.xcassets in Resources */,
+				2810FA13192CD47D00D40DA8 /* NKPinterestActivity@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,12 +257,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A5519A601A144EF9C1B1C0C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80343B44C8F430DB6367E4A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2810F9D6192CBE1A00D40DA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2810F9EA192CBE1A00D40DA8 /* main.m in Sources */,
+				2810FA11192CD20200D40DA8 /* NKViewController.m in Sources */,
+				2810FA0E192CCCC600D40DA8 /* NKPinterestActivity.m in Sources */,
 				2810F9EE192CBE1A00D40DA8 /* NKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +414,7 @@
 		};
 		2810FA07192CBE1A00D40DA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494A7C5C90484A888E05A909 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -370,6 +428,7 @@
 		};
 		2810FA08192CBE1A00D40DA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494A7C5C90484A888E05A909 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -440,6 +499,7 @@
 				2810FA08192CBE1A00D40DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2810FA09192CBE1A00D40DA8 /* Build configuration list for PBXNativeTarget "NKPinterestActivityTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +508,7 @@
 				2810FA0B192CBE1A00D40DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

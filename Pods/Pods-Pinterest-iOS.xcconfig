@@ -1,0 +1,2 @@
+PODS_PINTEREST_IOS_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Pinterest-iOS/PinItSDKiOS/Pinterest.embeddedframework"
+PODS_PINTEREST_IOS_OTHER_LDFLAGS = -framework CoreGraphics -framework Pinterest -framework UIKit

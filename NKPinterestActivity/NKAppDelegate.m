@@ -7,15 +7,24 @@
 //
 
 #import "NKAppDelegate.h"
+#import "NKViewController.h"
+
+@interface NKAppDelegate ()
+@property (nonatomic, strong) UIViewController *viewController;
+@end
 
 @implementation NKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    self.viewController = [[NKViewController alloc] init];
+    self.window.rootViewController = self.viewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 
