@@ -9,8 +9,9 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/neilkimmett"
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/neilkimmett/NKPinterestActivity.git", :tag => "1.0.0" }
-  s.source_files  = "NKPinterestActivity/NKPinterestActivity.{h,m}"
+  s.source_files = "NKPinterestActivity/NKPinterestActivity.{h,m}"
   s.resources = "Resources/*.png"
   s.requires_arc = true
   s.dependency "Pinterest-iOS", "~> 2.3"
+  s.frameworks   = 'Foundation', 'Pinterest'
 end
