@@ -40,7 +40,7 @@
             break;
         }
     }
-    return hasURL && [self.pinterest canPinWithSDK];
+    return hasURL;
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems
@@ -57,10 +57,45 @@
 
 - (void)performActivity
 {
+    if ([self.pinterest canPinWithSDK]) {
+        [self pinUsingPinterestSDK];
+    }
+    else {
+        [self pinUsingBrowser];
+    }
+    
+    [self activityDidFinish:YES];
+}
+
+- (void)pinUsingPinterestSDK
+{
     [self.pinterest createPinWithImageURL:self.imageURL
                                 sourceURL:self.sourceURL
                               description:self.description];
-    [self activityDidFinish:YES];
+}
+
+- (void)pinUsingBrowser
+{
+    NSString *baseURLFormat = @"http://www.pinterest.com/pin/create/button/?url=%@&media=%@&description=%@";
+    NSString *mediaURL = NKURLEncodedStringFromURL(self.sourceURL);
+    NSString *imageURL = NKURLEncodedStringFromURL(self.imageURL);
+    NSString *description = NKURLEncodedStringFromString(self.description);
+    NSString *fullString = [NSString stringWithFormat:baseURLFormat, mediaURL, imageURL, description];
+    NSURL *url = [NSURL URLWithString:fullString];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+#pragma mark - URL encoding
+static NSString * NKURLEncodedStringFromURL(NSURL *url)
+{
+    NSString *absoluteString = [url absoluteString];
+    return NKURLEncodedStringFromString(absoluteString);
+}
+
+static NSString * NKURLEncodedStringFromString(NSString *string)
+{
+    NSString *encoded = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,(CFStringRef)string, NULL, CFSTR("!$&'()*+,-./:;=?@_~"), kCFStringEncodingUTF8);
+    return encoded;
 }
 
 #pragma mark - UIActivity bookkeeping
