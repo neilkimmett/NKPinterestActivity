@@ -107,6 +107,11 @@ static NSString * NKURLEncodedStringFromString(NSString *string)
 
 - (UIImage *)activityImage
 {
+    BOOL isIOS8OrGreater = [[[UIDevice currentDevice] systemVersion] compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending;
+    if (isIOS8OrGreater) {
+        NSString *iconName =[self.activityType stringByAppendingString:@"_color"];
+        return [UIImage imageNamed:iconName];
+    }
     return [UIImage imageNamed:self.activityType];
 }
 
