@@ -40,7 +40,7 @@
             break;
         }
     }
-    return hasURL && [self.pinterest canPinWithSDK];
+    return hasURL;
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems
