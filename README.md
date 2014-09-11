@@ -1,6 +1,10 @@
 NKPinterestActivity
 ===================
 
+## What is?
+
+`NKPinterestActivity` is a `UIActivity` subclass for sharing content to Pinterest, using the [Pinterest iOS SDK](https://developers.pinterest.com/ios/). If a compatible version of the [Pinterest iOS app](http://appstore.com/pinterest) is installed it will use that, and if not it will fallback to using [http://www.pinterest.com](http://www.pinterest.com) in the browser.
+
 ![UIActivityViewController](https://github.com/neilkimmett/NKPinterestActivity/raw/master/Screenshots/both.jpg)
 
 ## Installation
